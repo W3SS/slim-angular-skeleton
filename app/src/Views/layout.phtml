@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="{{ meta.description }}" name="description" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ meta.title }}</title>
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic' rel='stylesheet' type='text/css'>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/dist/styles.css">
+</head>
+<body>
+
+{% block body %}{% endblock %}
+
+<script type="text/javascript" src="/dist/runtime.js"></script>
+<script type="text/javascript" src="/dist/polyfills.js"></script>
+<!-- <script type="text/javascript" src="/dist/styles.js"></script> -->
+<!-- <script type="text/javascript" src="/dist/vendor.js"></script> -->
+<script type="text/javascript" src="/dist/main.js"></script>
+
+</body>
+</html>

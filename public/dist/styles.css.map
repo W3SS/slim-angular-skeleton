@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./public/styles.css"],"names":[],"mappings":"AAAA,+EAA+E;;AAE/E;IACI,iBAAiB;CACpB","file":"styles.css","sourcesContent":["/* You can add global styles to this file, and also import other style files */\n\nbody {\n    overflow: hidden;\n}\n"],"sourceRoot":""}

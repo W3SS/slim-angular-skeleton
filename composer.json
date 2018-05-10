@@ -1,0 +1,28 @@
+{
+    "name": "tomshaw/slim-angular-skeleton",
+    "description": "Slim Framework 3 and Angular quick start.",
+    "license": "BSD-3-Clause",
+    "type": "project",
+    "keywords": ["slim-framework", "skeleton"],
+    "authors": [
+        {
+            "name": "Tom Shaw",
+            "email": "tomshaw21@gmail.com",
+            "homepage": "http://tomshaw.us"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/src"
+        }
+    },
+    "require": {
+        "slim/slim": "^3.0",
+        "slim/twig-view": "^2.0",
+        "slim/flash": "^0.1.0",
+        "monolog/monolog": "^1.13",
+        "doctrine/orm": "^2.5",
+        "juliangut/slim-doctrine": "^1.0",
+        "beberlei/DoctrineExtensions": "^1.0"
+    }
+}
